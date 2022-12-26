@@ -1,0 +1,35 @@
+body
+{
+    background-image: url("bg.jpg");
+    background-size: cover;
+}
+h3
+{
+    font-size: 50px;
+    background: linear-gradient(rgb(197, 4, 97) 0%, lightpink 50%, rgb(142, 4, 71) 100%);
+    width: 60%;
+    border-radius: 10px;
+}
+
+#btn
+{
+    width: 25%;
+    font-size: 20px;
+}
+
+.btn-success:hover
+{
+    background-color: rgba(255, 0, 128, 0.601);
+}
+canvas
+{
+    animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example
+{
+    from {box-shadow: 1px 1px 40px red;}
+    to {box-shadow: 1px 1px 40px rgb(9, 106, 176);}
+}
